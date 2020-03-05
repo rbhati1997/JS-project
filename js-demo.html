@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo JS</title>
+	<link rel="stylesheet" href="css/my.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+
+</head>
+<body>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Add data</button><br>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+		<label  for="f-name">First Name</label>
+  		<input id="f-name" type="text" name="fname"  placeholder="first-name"><br>
+		<label  for="l-name">Last Name</label>
+  		<input id="l-name" type="text" name="lname"  placeholder="last-name"><br>
+		<label for="age_id">Age</label>
+  		<input id="age_id"  type="text" name="age"  placeholder="age"><br>
+		<input id="submit" type="submit" value="Submit">
+
+  </div>
+</div>
+
+
+
+<div class="dialog" id="dialog" hidden="hidden">
+	<form>
+	<label  for="first-name">First Name</label>
+	<input id="first-name" type="text" name="fname"  placeholder="first-name"><br>
+	<label  for="last-name">Last Name</label>
+	<input id="last-name" type="text" name="lname"  placeholder="last-name"><br>
+	<label for="age">Age</label>
+	<input id="age"  type="text" name="age"  placeholder="age"><br>
+	</form>
+</div>
+
+
+
+
+
+<div>
+	<h2>Data Table</h2>
+	<table id="myTable">
+	  <tr>
+		<th id="serial_number">SNo.</th>
+		<th>FirstName</th>
+		<th>LastName</th>
+		<th>Age</th>
+		<th>Actions</th>
+	  </tr>
+	</table>
+<br>
+</div>
+
+
+<script src="js/my.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+
+</body>
+</html>
+
